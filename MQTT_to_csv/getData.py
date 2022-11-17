@@ -2,7 +2,7 @@ from MQTT2csv import ConvertMQTT
 
 IP_Address = "0.0.0.0" #MQTT broker IP-address
 
-m2csv = ConvertMQTT(IP_Address,"input.csv")
+m2csv = ConvertMQTT(IP_Address,"data.csv")
 
 m2csv.setReadings(5) #5 readings, can be changed to more if needed
 

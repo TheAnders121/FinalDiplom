@@ -6,11 +6,11 @@
 #define DHTTYPE DHT11   // DHT 11
 #define TEMP "/esp/temp" //Topic of the Temperature readings
 // Change the credentials below, so your ESP8266 connects to your network router
-const char* wifi_name = "Telenor5855obs";
-const char* wifi_password = "365IFEMmI";
+const char* wifi_name = ""; //Fill this out
+const char* wifi_password = ""; //Fill this out
 
 // Change the variable to your Raspberry Pi IP address, so it connects to your MQTT broker
-const char* mqtt_server = "10.0.0.13";
+const char* mqtt_server = ""; //Fill this out
 // Initializes the espClient
 WiFiClient espClient;
 PubSubClient client(espClient);
